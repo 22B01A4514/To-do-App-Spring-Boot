@@ -27,4 +27,22 @@ A simple and responsive To-do List application built using **Spring Boot**, **Th
 
 ---
 
-<pre><code>## 📁 Project Structure ``` src/ ├── main/ │ ├── java/ │ │ └── com/ │ │ └── app/ │ │ └── todoApp/ │ │ ├── controller/ # Controller classes │ │ ├── model/ # Entity classes │ │ ├── repository/ # JPA Repositories │ │ ├── service/ # Business logic │ │ └── TodoAppApplication.java │ └── resources/ │ ├── templates/ # Thymeleaf views │ │ └── index.html │ └── application.properties ``` </code></pre>
+## 📁 Project Structure
+
+```
+src/
+├── main/
+│   ├── java/
+│   │   └── com/
+│   │       └── app/
+│   │           └── todoApp/
+│   │               ├── controller/       # Controller classes
+│   │               ├── model/            # Entity classes
+│   │               ├── repository/       # JPA Repositories
+│   │               ├── service/          # Business logic
+│   │               └── TodoAppApplication.java
+│   └── resources/
+│       ├── templates/                    # Thymeleaf views
+│       │   └── index.html
+│       └── application.properties
+```
