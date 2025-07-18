@@ -7,7 +7,7 @@ import jakarta.persistence.Id;
 
 @Entity
 @Data
-public class Task {
+public class Task{
 	@Id 
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Long id;
